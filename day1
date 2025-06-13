@@ -1,0 +1,33 @@
+Lab-1 Echo demo
+#!/bin/bash  #tart your script with a shebang, which tells the OS which interpreter to use:
+# A simple echo demo
+echo "Hello, world!"
+save the file with .sh extesion for example demo.sh
+
+Change the permissions of the file
+chmod +x demo.sh
+
+Execute the file
+./demo.sh
+
+Lab-2 Using Variables & Arguments
+#!/bin/bash
+# Variables & args echo demo
+
+name="Bash User"
+echo "Hello, $name!"
+echo "Script name: $0"
+echo "First arg: $1"
+echo "Second arg: $2"
+
+Save the file as demo1.sh and execute using ./demo1.sh
+
+Lab3- Escape Sequences & Options
+#!/bin/bash
+echo -e "Line 1\nLine 2\tTabbed"
+echo -n "Enter your name: "
+read myname
+echo "Nice to meet you, $myname!"
+Save the file as demo2.sh and execute using ./demo2.sh
+
+  
