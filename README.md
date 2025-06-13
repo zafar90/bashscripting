@@ -23,15 +23,13 @@ Integration with existing CLI tools (grep, awk, sed, rsync, etc.) .
 
 Types of Shells
 ===============
-Shell	POSIX-Compliant	Best For	Notable Features
-sh	✅	Portability, base scripting	Very basic
-bash	✅	Most scripting needs	Widely used
-zsh	✅	Interactive power users	Themes, plugins
-csh	❌	C-style syntax	Legacy scripts
-tcsh	❌	Improved csh	Auto-completion
-ksh	✅	High-performance scripting	Script optimization
-fish	❌	Modern interactive shell	Autosuggestions
-
+sh	✅     	Portability, base scripting	Very basic
+bash	✅	  Most scripting needs	Widely used
+zsh	✅	    Interactive power users	Themes, plugins
+csh	❌	    C-style syntax	Legacy scripts
+tcsh	❌	  Improved csh	Auto-completion
+ksh	✅	    High-performance scripting	Script optimization
+fish	❌	  Modern interactive shell	Autosuggestions
 
 
 🧰 Basic Script Structure
